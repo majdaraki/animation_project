@@ -1,0 +1,339 @@
+*
+{
+    box-sizing: border-box;
+}
+.ul-list
+{
+    display : flex;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ul-list li:hover
+{
+    
+    transition-duration: 0.8s;
+    border-bottom: 6px solid white;
+    padding: 0;
+}
+.liii
+{
+    width:100%;
+    height:15rem;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+    position:relative;
+    z-index:1;
+    bottom:30%;
+}
+.par-anim
+{
+    width:100vw;
+    height: 60vh;
+    overflow:hidden;
+    background-color:transparent;
+    position: relative;
+    margin-top: 80px;
+}
+
+.dsh
+{
+    background-color: transparent;
+    opacity: 0.5;
+    width:100vw ;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.k
+{
+    text-decoration: none;
+    font-size: 79px;
+    color: white;
+    font-weight: 100;
+}
+.img-anim
+{
+    transform: rotate(280deg);
+}
+
+.images-anim
+{
+    width:60% ;
+    height:20rem ;
+    background-color:transparent;
+    position: relative;
+    top: 10%;
+    left: 20%;
+    transform: skewY(-15deg);
+    opacity: 0.4;
+}
+.images-anim::before {
+    content: "";
+    position: absolute;
+    top: 126px;
+    left: -118px;
+    width: 120px;
+    height: 12.5rem;
+    background-color:#AAFF;
+    transform-origin: right;
+    transform: skewY(65deg);
+    transition: 0.5s;
+}
+.images-anim .after
+{
+    position: absolute;
+    top: 0;
+    right: -8px;
+    width: 130px;
+    height: 100%;
+    background-color:#AAFF;
+    transform-origin: right;
+    transform: skewY(63deg);
+    transition: 0.5s;
+}
+
+.images-anim::after
+{
+    content: "";
+    position: absolute;
+    top: -246px;
+    left: -120px;
+    width: 100%;
+    height: 310px;
+    background-color:#AAFF;
+    transform-origin: right;
+    transform: rotateX(200deg);
+    transform: rotateZ(0.8deg);
+    transform: rotateY(2deg);
+    transition: 0.5s;
+}
+.images-anim .boto
+{
+    position: absolute;
+    z-index: -1;
+    top: 120px;
+    left: 0px;
+    width: 101%;
+    height: 204px;
+    background-color:#AAFF;
+    transform-origin: right;
+    transform: rotateX(-200deg);
+    transform: rotateZ(0deg);
+    transform: rotateY(2deg);
+    transition: 0.5s;
+}
+
+
+@media(max-width:576px)
+{
+    .ul-list
+       {
+           width: 100%;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           text-align: center;
+       }
+       .k
+       {
+         font-size: 45px;
+         position: relative;
+         right: 10px;
+         text-align: center;
+       }
+       .liii
+       {
+          bottom:70%;
+          height: 70%;
+        
+       }
+       .images-anim
+       {
+        width: 60%;
+       left: 7%;
+        height: 25rem;
+       }
+       .images-anim .after
+         {
+            position: absolute;
+            top: 66px;
+            right: -10px;
+            width: 104px;
+            height: 47%;
+            background-color:#AAFF;
+            transform-origin: right;
+            transform: skewY(68deg);
+            transition: 0.5s;
+         }
+         .images-anim::after
+         {
+             content: "";
+             position: absolute;
+             top: -185px;
+             left: -88px;
+             width: 99%;
+             height: 196px;
+             background-color:#AAFF;
+             transform-origin: right;
+             transform: rotateX(200deg);
+             transform: rotateZ(0.8deg);
+             transform: rotateY(2deg);
+             transition: 0.5s;
+         }
+         .images-anim::before {
+            content: "";
+            position: absolute;
+            top: 80px;
+            left: -90px;
+            width: 120px;
+            height: 11rem;
+            background-color: #AAFF;
+            transform-origin: right;
+            transform: skewY(65deg);
+            transition: 0.5s;
+        }
+        .images-anim .boto
+        {
+            position: absolute;
+            z-index: -1;
+            top: 79px;
+            left: 28px;
+            width: 93%;
+            height: 172px;
+            background-color:#AAFF;
+            transform-origin: right;
+            transform: rotateX(-200deg);
+            transform: rotateZ(0deg);
+            transform: rotateY(2deg);
+            transition: 0.5s;
+        }
+         
+         .par-anim
+         {
+            height: 64vh;
+         }
+}
+@media(min-width:576px)
+{
+    .ul-list
+       {
+           width: 100%;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+       }
+       .k
+       {
+         font-size: 70px;
+       }
+       .liii
+       {
+        bottom: 55%;
+       }
+       .images-anim
+       {
+        width: 60%;
+        left: 10%;
+       }
+}
+
+@media(min-width:768px)
+{
+     .k
+       {
+         font-size: 45px;
+       }
+       .ul-list
+       {
+           width: 100%;
+           align-items: center;
+           justify-content: space-around;
+           flex-direction: row;
+       }
+       .liii
+       {
+          bottom: 53%;
+       }
+       .images-anim
+       {
+        width: 60%;
+        left: 20%;
+       }
+}
+@media(min-width:992px)
+{
+     .k
+       {
+         font-size: 55px;
+       }
+       .ul-list
+       {
+           width: 100%;
+           align-items: center;
+           justify-content: space-around;
+           flex-direction: row;
+       }
+       .liii
+       {
+          bottom: 48%;
+       }
+       .images-anim
+       {
+        width: 60%;
+        left: 20%;
+       }
+}
+@media(min-width:1200px)
+{
+    .k
+    {
+      font-size: 70px;
+    }
+    .ul-list
+       {
+           width: 100%;
+           align-items: center;
+           justify-content: space-around;
+           flex-direction: row;
+       }
+       .liii
+       {
+        bottom: 48%;
+       }
+       .images-anim
+       {
+        width: 60%;
+        left: 20%;
+       }
+}
+@media(min-width:1400px)
+{
+    .k
+       {
+         font-size: 86px;
+       }
+       .ul-list
+       {
+           width: 100%;
+           align-items: center;
+           justify-content: space-around;
+           flex-direction: row;
+       }
+       .liii
+       {
+          bottom: 48%;
+       }
+       .images-anim
+       {
+        width: 60%;
+        left: 20%;
+       }
+}
+
+
+

@@ -1,0 +1,211 @@
+
+/*.homebage img{
+    width: 100vh;
+    height: 100vh;
+    padding: 20px 197px; 
+  
+    
+}*/
+.homebage{
+   /* margin-top: 343px;
+}*/}
+.homebage a{
+    text-decoration: none;
+    position: absolute;
+    top: 128px;
+    left: 45%;
+}
+
+.go{
+    
+    color: white;
+}
+.green,
+.block2{
+    display: block;
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    background-color: #78ff7878;
+    
+}
+.green{
+    top: 162px;
+}
+.block2{
+    top: 362px;
+}
+.block3{
+    display: block;
+    position: relative;
+    height: 72px;
+    width: 300px;
+    background-color: #78ff7878;
+    top: 134px;
+    left: 118px;
+}
+.block4{
+    display: block;
+    position: relative;
+    background-color: #78ff7878; 
+    height: 66px;
+    width: 278px;
+    left: 44%;
+    top: -295px;
+    border-radius: 5px;
+}
+.green5{
+    display: block;
+    position: absolute;
+    top: 55px ;
+    left: 39%;
+    height: 66px;
+    width: 278px;
+    background-color: #78ff7878; 
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px 100px;
+    gap: 98px;
+}
+.one img{
+    width: 406px;
+    height: 402px;
+}
+.one p{
+    font-size: 26px;
+    line-height: 1.6rem;
+    font: inherit;
+    vertical-align: baseline;
+    color: #252525;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+}
+.two,
+.three{
+    background-color: white;
+    padding: 0px 150px 100px;
+}
+.two h1,
+.two p,
+.two span{    
+    text-align: center;
+}
+.two h1{
+    text-transform: uppercase;
+    font-size: 60px;
+   padding-top: 150px;
+}
+.three{
+    margin-top: -52px;
+    margin-bottom: 100px;
+}
+.three h3{
+    font-size: 42px;
+    font-family: SabonLT;
+    margin-bottom: 120px;
+}
+.three p{
+    font-size: 24px;
+    color: #343434;
+}
+.three .num h5,
+.three .num2 h5{
+    text-align: center;
+    font-size: 35px;
+    font-family: NittiGrotesk;
+}
+.three .num h5 span,
+.three .num2 h5 span{
+    font-size: 70px;
+    font-family: NittiGrotesk;
+    
+}
+.three .num p,
+.three .num2 p{
+    margin-top: 1em;
+    text-transform: uppercase;
+    opacity: .5;
+    margin-bottom: 1em;
+    line-height: 1.6em;
+    color: #343434;
+    font-family: NittiGrotesk;
+    font-size: 20px;
+    text-align: center;
+}
+.four{
+    padding: 0px 150px 100px;
+}
+.four .num3,
+.four .num4{
+    display: flex;
+    justify-content: space-between;
+    gap: 132px;
+}
+.four .num3{
+    border-bottom:1px solid #686868;
+    padding-bottom: 50px;
+}
+.four .num3 span{
+ font-size: 130px;
+ font-family: SabonLT;
+ color: #252525;
+}
+.four .num4{
+    padding-top: 50px;
+}
+.four .num4 span{
+font-size: 80px;
+ font-family: SabonLT;
+ color: #252525; 
+}
+.five,
+.six{
+    background-color: white;
+}
+.five img{
+    width: 100%;
+    height: 627px;
+}
+.five h2{
+    margin-top: 80px;
+    font-size:40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-family: SabonLT;
+}
+.five p{
+    text-align: center;
+    font-size: 24px;
+    color: #686868;
+    padding-bottom: 80px;
+}
+.six{
+    margin-top: -35px;
+}
+.six h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: SabonLT;
+    text-transform: uppercase;
+    color: #343434;
+    margin-bottom: 100px;
+}
+.six img{
+    width: 528px;
+    height: 297px;
+}
+.six .content2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0px 0px 100px 200px;
+}
+.six .content2 span{
+    margin-top: 50px;
+}
+.leader{
+    display: block;
+}

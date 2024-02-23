@@ -1,0 +1,15 @@
+.con{
+    display: flex;
+    gap: 20px;
+    margin-left: 129px;
+}
+@media (max-width:767px) {
+    .con{
+        margin-left: 275px;
+        margin-top: 27px;
+    
+    }
+}
+.footer{
+    padding-left: 193px;
+}

@@ -1,0 +1,334 @@
+.parent-footer
+{
+    width: 100vw;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.parent-footer .footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1500px;
+}
+.parent-footer .footer .ul1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 40%;
+}
+.parent-footer .footer .ul2 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.parent-footer .footer .ul3
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    padding-right: 40px;
+    gap: 30px;
+}
+.parent-footer .footer ul li .link
+{
+    font-size: 19px;
+    color: #999595;
+    text-decoration: none;
+}
+.parent-footer .footer ul li .link:hover
+{
+    border-bottom: 1px solid #b4b3b3;
+    transition-duration: 3s;
+}
+.parent-footer .footer ul
+{
+    list-style: none;
+}
+.parent-footer .plus
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1500px;
+}
+.parent-footer .plus .ul4
+{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+.parent-footer .plus .ul4 li .link
+{
+    font-size: 19px;
+    color: #999595;
+    text-decoration: none;
+}
+.parent-footer .plus .ul4 li .link:hover
+{    
+    border-bottom: 1px solid #b4b3b3;
+    transition-duration: 2s;
+}
+@media(max-width:567px)
+{
+    .parent-footer
+    {
+       margin-top: 140px;
+    }
+    .parent-footer .footer,
+    .parent-footer .plus
+    {
+       width: 100%;
+       flex-direction: column;
+    }
+    .parent-footer .footer .ul1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        flex-direction: row;
+        padding-right: 10px;
+        flex-wrap: wrap;
+    }
+    .parent-footer .footer .ul2 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 30px;
+        flex-direction: row;
+    }
+    .parent-footer .footer .ul3
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 40px;
+        gap: 30px;
+        flex-direction: row;
+    }
+}
+@media(min-width:567px)
+{
+    .parent-footer
+    {
+       margin-top: 140px;
+    }
+    .parent-footer .footer,
+    .parent-footer .plus
+    {
+       width: 100%;
+       flex-direction: column;
+    }
+    .parent-footer .footer .ul1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .parent-footer .footer .ul2 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .parent-footer .footer .ul3
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 40px;
+        gap: 30px;
+        flex-direction: row;
+    }
+}
+@media(min-width:768px)
+{
+    .parent-footer
+    {
+       margin-top: 140px;
+    }
+    .parent-footer .footer,
+    .parent-footer .plus
+    {
+       width: 100%;
+       flex-direction: column;
+    }
+    .parent-footer .footer .ul1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .parent-footer .footer .ul2 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+    }
+    .parent-footer .footer .ul3
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-right: 40px;
+        gap: 30px;
+        flex-direction: row;
+    }
+}
+@media(min-width:992px)
+{
+    .parent-footer
+    {
+       margin-top: 120px;
+    }
+    .parent-footer .footer,
+    .parent-footer .plus
+    {
+       width: 1000px;
+       flex-direction: column;
+    }
+    .parent-footer .footer .ul1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 40%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .parent-footer .footer .ul2 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        flex-direction: row;
+    }
+    .parent-footer .footer .ul3
+    {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 30%;
+        padding-right: 40px;
+        gap: 30px;
+        flex-direction: row;
+    }
+}
+@media(min-width:1200px)
+{
+    .parent-footer
+    {
+       margin-top: 90px;
+    }
+    .parent-footer .footer,
+    .parent-footer .plus
+    {
+       width: 1100px;
+       flex-direction: row;
+    }
+      
+
+    .parent-footer .footer .ul1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 30px;
+        width: 40%;
+        flex-wrap: nowrap;
+    }
+    .parent-footer .footer .ul2 
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 30%;
+    }
+    .parent-footer .footer .ul3
+    {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+        width: 30%;
+        padding-right: 40px;
+        gap: 30px;
+    }
+}
+@media(min-width:1400px)
+{
+    .parent-footer
+    {
+       margin-top: 90px;
+    }
+        .parent-footer .footer,
+     .parent-footer .plus
+     {
+        width: 1500px;
+        flex-direction: row;
+     }
+
+
+     .parent-footer .footer .ul1
+     {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 30px;
+       width: 40%;
+       flex-direction: row;
+       flex-wrap: nowrap;
+    }
+.parent-footer .footer .ul2 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-direction: row;
+}
+.parent-footer .footer .ul3
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    padding-right: 40px;
+    gap: 30px;
+    flex-direction: row;
+}
+}

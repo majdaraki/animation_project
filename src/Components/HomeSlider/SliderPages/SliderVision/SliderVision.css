@@ -1,0 +1,63 @@
+.SliderVision
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/2.a47eb8f9.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+.SliderVision .VisionContent
+{
+    text-align: center;
+    width: 65%;
+    background-color: rgba(171, 250, 171, 0.486);
+    display: grid;
+    place-items: center;
+    color: white;
+    height:22vh;
+    transition: .8s;
+    position: absolute;
+}
+.SliderVision .VisionContent span
+{
+    line-height: 0;
+    padding-top: 2%;
+    margin-bottom: -15px;
+}
+.SliderVision  h3
+{
+    color: white;
+    font-size: calc(10px + 1vw);
+    position: absolute;
+    top: 15%;
+}
+.SliderVision .VisionContent h1
+{
+    transition: .5s;
+    font-size: calc(10px + 3.5vw);
+}
+@media (width<750px) {
+.SliderVision .VisionContent
+    {
+        height: 10vh;
+        width: 50%;
+    }
+.SliderVision .VisionContent span
+    {
+        padding-top: 28%;
+    }
+.SliderVision .VisionContent h1
+    {
+    font-size: calc(15px + 3.5vw);
+    }
+}
+.image{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    position: relative;
+}

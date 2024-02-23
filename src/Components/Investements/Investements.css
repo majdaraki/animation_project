@@ -1,0 +1,315 @@
+.inves{
+}
+.section1
+{
+    width:100vw;
+    height: 26rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: 50px;
+}
+.section1 h1
+{
+    text-align: center;
+    font-size: 66px;
+    color: #252525;
+    font-family: inherit;
+}
+.section4 {
+    width:100vw;
+    height: 20rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #eee;
+}
+.section4 .sec4-ch
+{
+    width:1500px;
+    height: 18rem;
+    background-color: #eee;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.section4 .sec4-ch h1
+{
+    font-family: inherit;
+    font-size: 64px;
+    margin: 0px auto;
+    color: #252525;
+    position: relative;
+    z-index: 1;
+}
+.parent-section2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #eee;
+}
+.parent-section3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: transparent;
+}
+.parent-section6
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: transparent;
+    padding-top: 20px;
+}
+.parent-section7
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: transparent;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+.parent-section5,
+.par-background
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: transparent;
+}
+.animation2
+{
+    position: absolute;
+    top:100px;
+    left: 60px;
+    width: 550px;
+    height: 50px;
+    background-color:rgb(157, 253, 157);
+}
+.animation
+{
+    position: absolute;
+    top:140px;
+    left: 220px;
+    width: 500px;
+    height: 50px;
+    background-color:rgb(157, 253, 157);
+}
+.background-element
+{
+    width: 1500px;
+    height: 600px;
+    background-image: url('./photos/p3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animation3
+{
+    width: 400px;
+    height: 60px;
+    background-color:rgb(157, 253, 157);
+    opacity: 0.8;
+}
+
+@media(max-width:576px)
+{
+      .section1 h1
+       {
+         font-size: 28px;
+       }
+      .section1
+       {
+         height: 17rem;
+       }
+       .section4 .sec4-ch
+       {
+           width:100%;
+       }
+       .section4 .sec4-ch h1
+       {
+           font-size: 22px;
+       }
+       .animation
+        {
+        top:140px;
+        left: 96px;
+        width: 60%;
+        height: 40px;
+       }
+       .background-element
+       {
+          width: 100%;
+       }
+      
+}
+@media(min-width:576px)
+{
+    .section1 h1
+    {
+       font-size: 33px;
+    }
+    .section1
+    {
+      height: 20rem;
+    }
+    .section4 .sec4-ch
+    {
+        width:100%;
+    }
+    .section4 .sec4-ch h1
+    {
+        font-size: 30px;
+    }
+    .animation
+    {
+        top:140px;
+        left: 100px;
+        width: 70%;
+        height: 50px;
+    }
+    .background-element
+    {
+       width: 100%;
+    }
+   
+}
+@media(min-width:768px)
+{
+    .section1 h1
+    {
+       font-size: 40px;
+    }
+    
+    .section1
+    {
+      height: 20rem;
+    }
+    .section4 .sec4-ch
+    {
+        width:100%;
+    }
+    .section4 .sec4-ch h1
+    {
+        font-size: 33px;
+    }
+    .animation
+    {
+        top:140px;
+        left: 100px;
+        width: 500px;
+        height: 50px;
+    }
+    .background-element
+    {
+       width: 100%;
+    }
+    
+}
+@media(min-width:992px)
+{
+    .section1 h1
+    {
+       font-size: 56px;
+    }
+    
+    .section1
+    {
+      height: 23rem;
+    }
+    .section4 .sec4-ch
+    {
+        width:1000px;
+    }
+    .section4 .sec4-ch h1
+    {
+        font-size: 40px;
+    }
+    .animation
+    {
+        top:140px;
+        left: 100px;
+        width: 500px;
+        height: 50px;
+    }
+    .background-element
+    {
+       width: 100%;
+    }
+}
+@media(min-width:1200px)
+{
+    .section1 h1
+    {
+       font-size: 66px;
+    }
+    
+    .section1
+    {
+      height: 29rem;
+    }
+    .section4 .sec4-ch
+    {
+        width:1100px;
+    }
+    .section4 .sec4-ch h1
+    {
+        font-size: 60px;
+    }
+    .animation
+    {
+        top:140px;
+        left: 100px;
+        width: 500px;
+        height: 50px;
+    }
+    .background-element
+    {
+       width: 100%;
+    }
+   
+}
+@media(min-width:1400px)
+{
+    .section1 h1
+     {
+        font-size: 66px;
+     }
+     .section1
+     {
+       height: 29rem;
+     }
+     .section4 .sec4-ch
+     {
+         width:1500px;
+     }
+     .section4 .sec4-ch h1
+     {
+         font-size: 64px;
+     }
+     .animation
+     {
+         top:140px;
+         left: 220px;
+         width: 500px;
+         height: 50px;
+     }
+     .background-element
+     {
+        width: 1500px;
+     }
+    
+}
